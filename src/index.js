@@ -55,4 +55,21 @@ submitButton.addEventListener('click', () => {
       });
     hls.loadSource(URL.createObjectURL(blob));
     hls.attachMedia(video);
-})
+});
+
+function setupTimelineChart() {
+  const canvas = document.querySelector('#timeline-chart');
+  const chart = new TimelineChart(canvas, {
+    responsive: false,
+  });
+
+  resizeHandlers.push(() => {
+    chart.resize();
+  });
+
+  chart.resize();
+
+  return chart;
+}
+
+setupTimelineChart();

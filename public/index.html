@@ -1,12 +1,17 @@
 <html>
+    <head>
+        <link rel="stylesheet" href="/css/main.css" />
+    </head>
     <body>
-        <div>
+        <div class="input">
             <label for="playlist">Playlist Here:</label>
             <input style="width:80%;" type="text" id="domain" name="domain">
-            <textarea name="Text1" cols="100" rows="100" id="playlist"></textarea>
+            <textarea name="Text1" cols="100" rows="30" id="playlist"></textarea>
             <button id="submit">Submit Playlist</button>
         </div>
-        <video controls id="video"></video>
+        <div class="video">
+            <video controls id="video"></video>
+        </div>
         <script src="/js/list-streamer.bundle.js"></script>
     </body>
 </html>
