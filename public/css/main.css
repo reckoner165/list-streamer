@@ -1,10 +1,17 @@
 body {
-    --color-1: #9c27b0;
+    --color-1: #032CE2;
     --color-2: rgba(0,0,0,0);
     background-image: radial-gradient(circle at 2px 2px, var(--color-1) 1px, var(--color-2) 0);
     background-size: 15px 15px;
     background-color: #FBFBF1;
+    color: rgb(250, 69, 49);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+
+.header {
+    margin: 0 auto;
+    width: 80%;
+}
 
 .input {
     width: 80%;
