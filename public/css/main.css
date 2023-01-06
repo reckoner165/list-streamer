@@ -9,10 +9,11 @@ body {
 .input {
     width: 80%;
     margin: 0 auto;
+    padding-top: 30px;
 }
 
 .video {
     width: 80%;
     margin: 0 auto;
-    padding-top: 5%;
+    padding-top: 2%;
 }
