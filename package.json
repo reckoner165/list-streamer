@@ -1,0 +1,30 @@
+{
+  "name": "list-streamer",
+  "version": "1.0.0",
+  "description": "HLS Player with editable playlist",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reckoner165/list-streamer.git"
+  },
+  "author": "Sumanth Srinivasan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reckoner165/list-streamer/issues"
+  },
+  "homepage": "https://github.com/reckoner165/list-streamer#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "webpack": "^5.30.0",
+    "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "babel-preset-latest": "^6.24.1",
+    "hls.js": "^1.2.9"
+  }
+}
